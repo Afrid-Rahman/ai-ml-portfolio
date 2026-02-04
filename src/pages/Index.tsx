@@ -53,7 +53,7 @@ const Index = () => {
               transition={{ delay: 0.2, type: "spring", stiffness: 100 }}
               className="mb-8"
             >
-              <Avatar className="w-32 h-32 sm:w-40 sm:h-40 mx-auto ring-4 ring-primary/30 ring-offset-4 ring-offset-background shadow-2xl shadow-primary/20">
+              <Avatar className="w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 mx-auto ring-4 ring-primary/30 ring-offset-4 ring-offset-background shadow-2xl shadow-primary/20">
                 <AvatarImage 
                   src="/placeholder.svg" 
                   alt="Alex Chen"
