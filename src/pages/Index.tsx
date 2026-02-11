@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight, Download, Github, Linkedin, ChevronDown, Brain, Code, Database, Cloud } from "lucide-react";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
+import profilePhoto from "@/assets/profile-photo.png";
 import { Layout } from "@/components/layout/Layout";
 import { SkillCard } from "@/components/cards/SkillCard";
 
@@ -55,7 +56,7 @@ const Index = () => {
             >
               <Avatar className="w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 mx-auto ring-4 ring-primary/30 ring-offset-4 ring-offset-background shadow-2xl shadow-primary/20">
                 <AvatarImage 
-                  src="/placeholder.svg" 
+                  src={profilePhoto} 
                   alt="Alex Chen"
                   className="object-cover"
                 />
