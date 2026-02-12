@@ -57,11 +57,11 @@ const Index = () => {
               <Avatar className="w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 mx-auto ring-4 ring-primary/30 ring-offset-4 ring-offset-background shadow-2xl shadow-primary/20">
                 <AvatarImage 
                   src={profilePhoto} 
-                  alt="Alex Chen"
+                  alt="Afrid Rahman"
                   className="object-cover"
                 />
                 <AvatarFallback className="text-3xl font-bold bg-gradient-to-br from-primary to-accent text-primary-foreground">
-                  AC
+                  AR
                 </AvatarFallback>
               </Avatar>
             </motion.div>
@@ -85,7 +85,7 @@ const Index = () => {
               className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6"
             >
               Hi, I'm{" "}
-              <span className="text-gradient">Alex Chen</span>
+              <span className="text-gradient">Afrid Rahman</span>
             </motion.h1>
 
             {/* Title */}
